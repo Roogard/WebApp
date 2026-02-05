@@ -33,7 +33,7 @@ def files():
 # Class Activity 1
 @app.route("/")
 def main():
-return rendertemplate("about.html")
+    return render_template("about.html")
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5000, debug=True)
